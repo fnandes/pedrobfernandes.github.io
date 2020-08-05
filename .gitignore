@@ -1,0 +1,6 @@
+# JS
+node_modules/
+
+# Generated
+index.html
+index.bundle.js
