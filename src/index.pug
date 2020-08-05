@@ -14,3 +14,10 @@ html(lang="en")
     include sections/_head.pug
     hr
     include sections/_highlights.pug
+
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-174543844-1")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-174543844-1');
