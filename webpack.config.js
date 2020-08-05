@@ -39,12 +39,12 @@ module.exports = {
     extensions: ['.js']
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     publicPath: '',
     filename: 'index.bundle.js'
   },
   devServer: {
-    contentBase: path.resolve('www'),
+    contentBase: path.resolve('docs'),
     historyApiFallback: true
   },
   plugins: [
